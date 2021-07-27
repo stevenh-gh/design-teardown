@@ -13,3 +13,34 @@ nav .bottom {
     height: 70px;
     width: 100%;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-articles .primary {
+    height: 441px;
+    width: 772px;
+    margin: 47px 0 63px 0;
+}
+
+.featured-articles .secondary {
+    height: 143px;
+    width: 772px;
+    margin-bottom: 63px;
+}
+
+.newsletter {
+    height: 943px;
+    width: 427px;
+    padding: 0 16px;
+    margin: 20px 0 0 115px;
+}
+
+.newsletter .newsletter-content {
+    height: 516px;
+    width: 365px;
+    padding: 125px 31px 42px 31px;
+    margin-top: 125px;
+}
