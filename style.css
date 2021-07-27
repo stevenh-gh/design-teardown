@@ -3,3 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
+nav .top {
+    height: 105px;
+    width: 100%;
+}
+
+nav .bottom {
+    height: 70px;
+    width: 100%;
+}
