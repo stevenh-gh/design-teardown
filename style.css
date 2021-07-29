@@ -61,3 +61,20 @@ nav .bottom {
     padding: 40px;
     margin: 31px 0;
 }
+
+.latest-posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 1282px;
+    padding: 0 16px;
+    margin: auto;
+    justify-items: center;
+}
+
+.latest-posts div {
+    width: 537px;
+    height: 363px;
+    padding-left: 105px;
+    margin-bottom: 63px;
+}
