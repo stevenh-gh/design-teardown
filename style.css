@@ -78,3 +78,29 @@ nav .bottom {
     padding-left: 105px;
     margin-bottom: 63px;
 }
+
+.join {
+    display: flex;
+    width: 1282px;
+    padding: 0 16px;
+    margin: auto;
+}
+
+.join div {
+    width: 642px;
+}
+
+.join div:first-of-type {
+    height: 435px;
+}
+
+.join div:last-of-type {
+    height: 644px;
+}
+
+
+/* .sbox {
+    height: 16px;
+    width: 100%;
+    padding-bottom: 21px;
+} */
