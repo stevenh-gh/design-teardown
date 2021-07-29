@@ -44,3 +44,19 @@ nav .bottom {
     padding: 125px 31px 42px 31px;
     margin-top: 125px;
 }
+
+.guides {
+    display: flex;
+    height: 528px;
+    width: 1305px;
+    justify-content: space-between;
+    padding: 0 21px;
+    margin: auto
+}
+
+.guides div {
+    height: 385px;
+    width: 334px;
+    padding: 40px;
+    margin: 31px 0;
+}
