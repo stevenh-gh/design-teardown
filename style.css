@@ -104,3 +104,33 @@ nav .bottom {
     width: 100%;
     padding-bottom: 21px;
 } */
+
+.more {
+    width: 1346px;
+    height: 961px;
+    padding: 0 16px;
+    margin: auto;
+}
+
+.more .more-heading {
+    height: 117px;
+    width: 1282px;
+    padding: 0 16px 20px 16px;
+    margin-bottom: 20px;
+}
+
+.more .family {
+    height: 772px;
+    width: 1314px;
+    padding-bottom: 31px;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.more .family div {
+    height: 455px;
+    min-width: 303px;
+    padding: 125px 31px 42px 31px;
+    margin-top: 125px;
+    margin-right: 31px;
+}
