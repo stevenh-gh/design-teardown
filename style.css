@@ -135,3 +135,54 @@ nav .bottom {
     margin-top: 125px;
     margin-right: 31px;
 }
+
+.workshops {
+    height: 877px;
+    width: 100%;
+    padding: 73px 0;
+}
+
+.workshops .workshop-container {
+    height: 877px;
+    width: 1346px;
+    margin: 0 111px;
+}
+
+.twitter {
+    height: 1742px;
+    width: 1314px;
+    padding: 0 16px;
+    margin: auto;
+}
+
+.person-of-week {
+    height: 276px;
+    width: 1282px;
+    padding: 0 16px;
+    margin-bottom: 63px;
+}
+
+.twitter-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: auto;
+    justify-items: center;
+}
+
+.twitter-article {
+    height: 274px;
+    width: 537px;
+    padding-left: 105px;
+    margin-bottom: 63px;
+}
+
+.twitter-article:nth-of-type(n+3) {
+    margin-top: 63px;
+}
+
+footer {
+    height: 613px;
+    width: 100%;
+    padding: 33px 0 50px;
+}
