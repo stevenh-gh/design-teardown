@@ -19,6 +19,8 @@ nav .bottom {
 .flex-container {
     display: flex;
     justify-content: space-between;
+    width: 1364px;
+    margin: auto;
 }
 
 .featured-articles .primary {
