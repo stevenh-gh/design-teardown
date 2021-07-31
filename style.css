@@ -235,6 +235,15 @@ nav .bottom {
     width: 1282px;
     padding: 0 16px;
     margin-bottom: 63px;
+    display: grid;
+    grid-template-columns: 307px auto;
+}
+
+.person-of-week .img {
+    height: 240px;
+    width: 240px;
+    border: 8px solid black;
+    border-radius: 11px;
 }
 
 .twitter-grid {
