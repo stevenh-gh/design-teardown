@@ -27,6 +27,22 @@ nav .bottom {
     height: 441px;
     width: 772px;
     margin: 47px 0 63px 0;
+    display: grid;
+    grid-template-columns: 230px auto;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.primary .img {
+    height: 176px;
+    width: 176px;
+    border-radius: 11px;
+    border: 10px solid black;
+    display: block;
+}
+
+.primary p {
+    display: block;
+    grid-column: 1/3;
 }
 
 .featured-articles .secondary {
