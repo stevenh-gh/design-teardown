@@ -232,6 +232,10 @@ nav .bottom {
     width: 1282px;
     padding: 0 16px 20px 16px;
     margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .more .family {
@@ -242,12 +246,24 @@ nav .bottom {
     display: flex;
 }
 
-.more .family div {
+.more .family>div {
     height: 455px;
     min-width: 303px;
     padding: 125px 31px 42px 31px;
     margin-top: 125px;
     margin-right: 31px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.family button {
+    width: 234px;
+    height: 34px;
+    padding: 19px 24px;
+    background: none;
+    border-radius: 11px;
 }
 
 .workshops {
