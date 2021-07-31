@@ -36,7 +36,7 @@ nav .bottom {
     height: 176px;
     width: 176px;
     border-radius: 11px;
-    border: 10px solid black;
+    border: 8px solid black;
     display: block;
 }
 
@@ -49,7 +49,19 @@ nav .bottom {
     height: 143px;
     width: 772px;
     margin-bottom: 63px;
+    display: grid;
+    grid-template-columns: 154px auto;
 }
+
+.secondary .img {
+    height: 118px;
+    width: 118px;
+    border: 5px solid black;
+    border-radius: 11px;
+}
+
+
+/* .secondary h1 {} */
 
 .newsletter {
     height: 943px;
