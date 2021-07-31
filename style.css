@@ -314,6 +314,19 @@ nav .bottom {
     width: 537px;
     padding-left: 105px;
     margin-bottom: 63px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.twitter-article .img {
+    height: 70px;
+    width: 70px;
+    border: 5px solid black;
+    border-radius: 11px;
+    position: absolute;
+    left: 0;
 }
 
 .twitter-article:nth-of-type(n+3) {
