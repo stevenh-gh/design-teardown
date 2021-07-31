@@ -108,6 +108,19 @@ nav .bottom {
     width: 334px;
     padding: 40px;
     margin: 31px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.guides div button {
+    margin-top: 32px;
+    padding: 19px 25px;
+    height: 56px;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 11px;
+    background: none;
 }
 
 .latest-posts {
