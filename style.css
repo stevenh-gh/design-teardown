@@ -193,7 +193,24 @@ nav .bottom {
     padding: 10px 14px;
     margin: 12px 0;
     background: none;
-    border: 1px solid black;
+}
+
+.join .promo {
+    min-width: 574px;
+    min-height: 352px;
+    padding: 125px 31px 42px 31px;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.promo button {
+    width: 246px;
+    height: 34px;
+    padding: 19px 24px;
+    background: none;
 }
 
 
