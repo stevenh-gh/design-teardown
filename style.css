@@ -162,17 +162,38 @@ nav .bottom {
     margin: auto;
 }
 
-.join div {
+.join>div {
     width: 642px;
 }
 
-.join div:first-of-type {
+.join>div:first-of-type {
     height: 435px;
     align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.join div:last-of-type {
+.join>div:last-of-type {
     height: 644px;
+}
+
+.join .sponsors {
+    height: 276px;
+    width: 363px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sponsors button {
+    height: 15px;
+    width: 96px;
+    padding: 10px 14px;
+    margin: 12px 0;
+    background: none;
+    border: 1px solid black;
 }
 
 
