@@ -75,6 +75,23 @@ nav .bottom {
     width: 365px;
     padding: 125px 31px 42px 31px;
     margin-top: 125px;
+    text-align: center;
+}
+
+.newsletter-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newsletter-content button {
+    width: 197px;
+    height: 28px;
+    padding: 13px 20px;
+    background: none;
+    border-radius: 11px;
+    font-size: larger;
+    font-weight: 700;
 }
 
 .guides {
