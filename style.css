@@ -362,4 +362,41 @@ footer {
     height: 613px;
     width: 100%;
     padding: 33px 0 50px;
+    text-align: center;
+}
+
+footer h1 {
+    width: 1314px;
+    height: 37px;
+    margin: 30px auto;
+}
+
+footer>p {
+    width: 1314px;
+    height: 214px;
+    margin: 17px auto;
+}
+
+footer .bottom {
+    width: 1314px;
+    height: 235px;
+    padding: 0 16px;
+    margin: auto;
+}
+
+footer .links {
+    width: 502px;
+    height: 89px;
+    padding: 17px 0;
+    margin: auto;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+h1 {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
 }
