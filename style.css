@@ -30,6 +30,7 @@ nav .bottom {
     display: grid;
     grid-template-columns: 230px auto;
     grid-template-rows: repeat(2, 1fr);
+    background-color: #828282;
 }
 
 .primary .img {
@@ -57,6 +58,7 @@ nav .bottom {
     margin-bottom: 63px;
     display: grid;
     grid-template-columns: 154px auto;
+    background-color: #a1a1a1;
 }
 
 .secondary .img {
@@ -75,6 +77,7 @@ nav .bottom {
     width: 427px;
     padding: 0 16px;
     margin: 20px 0 0 115px;
+    background-color: #bdbdbd;
 }
 
 .newsletter .newsletter-content {
@@ -134,6 +137,7 @@ nav .bottom {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #a1a1a1;
 }
 
 .guides div button {
@@ -174,6 +178,7 @@ nav .bottom {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #a1a1a1;
 }
 
 .latest-posts .img {
@@ -196,6 +201,7 @@ nav .bottom {
 
 .join>div {
     width: 642px;
+    background-color: #a1a1a1;
 }
 
 .join>div:first-of-type {
@@ -266,6 +272,7 @@ nav .bottom {
     height: 961px;
     padding: 0 16px;
     margin: auto;
+    background-color: #a1a1a1;
 }
 
 .more .more-heading {
@@ -305,6 +312,7 @@ nav .bottom {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #949494;
 }
 
 .family button {
@@ -338,6 +346,7 @@ nav .bottom {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #a1a1a1;
 }
 
 .workshops .date {
@@ -379,6 +388,7 @@ nav .bottom {
     margin-bottom: 63px;
     display: grid;
     grid-template-columns: 307px auto;
+    background-color: #828282;
 }
 
 .person-of-week p {
@@ -409,6 +419,7 @@ nav .bottom {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #bdbdbd;
 }
 
 .twitter-article h1 {
@@ -437,6 +448,7 @@ footer {
     width: 100%;
     padding: 33px 0 50px;
     text-align: center;
+    background-color: #bdbdbd;
 }
 
 footer h1 {
@@ -476,4 +488,9 @@ footer ul li {
 h1 {
     font-family: 'Comic Neue', cursive;
     font-weight: 700;
+}
+
+p {
+    background-color: #7a7a7a;
+    color: rgba(0, 0, 0, 0);
 }
