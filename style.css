@@ -45,7 +45,7 @@ nav .bottom {
     font-size: 38px;
 }
 
-.primary p {
+.primary .p {
     display: block;
     grid-column: 1/3;
     font-size: 21px;
@@ -98,7 +98,7 @@ nav .bottom {
     font-size: 28px;
 }
 
-.newsletter-content p {
+.newsletter-content .p {
     font-size: 21px;
 }
 
@@ -125,11 +125,12 @@ nav .bottom {
     font-size: 35px;
 }
 
-.guides p {
+.guides .p {
     font-size: 21px;
+    text-align: center;
 }
 
-.guides div {
+.guides>div {
     height: 385px;
     width: 334px;
     padding: 40px;
@@ -164,12 +165,13 @@ nav .bottom {
     font-size: 34px;
 }
 
-.latest-posts p {
+.latest-posts .p {
     font-size: 21px;
     line-height: 1.5;
 }
 
-.latest-posts div {
+.latest-posts>div,
+.latest-posts .img {
     width: 537px;
     height: 363px;
     padding-left: 105px;
@@ -248,7 +250,7 @@ nav .bottom {
     font-size: 31px;
 }
 
-.promo p {
+.promo .p {
     font-size: 21px;
 }
 
@@ -290,7 +292,7 @@ nav .bottom {
     font-size: 45px;
 }
 
-.more-heading p {
+.more-heading .p {
     font-size: 27px;
 }
 
@@ -328,7 +330,7 @@ nav .bottom {
     font-size: 31px;
 }
 
-.family p {
+.family .p {
     font-size: 21px;
 }
 
@@ -490,7 +492,9 @@ h1 {
     font-weight: 700;
 }
 
-p {
-    background-color: #7a7a7a;
-    color: rgba(0, 0, 0, 0);
+p,
+span {
+    /* background-color: #7a7a7a; */
+    /* color: rgba(0, 0, 0, 0); */
+    background-color: thistle;
 }
