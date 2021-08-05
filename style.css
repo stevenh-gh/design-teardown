@@ -508,3 +508,7 @@ button {
     user-select: none;
     /* background-color: thistle; */
 }
+
+h1 {
+    background-color: #545454;
+}
