@@ -362,8 +362,9 @@ nav .bottom {
     font-size: 45px;
 }
 
-.workshops p {
+.workshops .p {
     margin: 25px 238px 50px 238px;
+    line-height: 1.5;
     font-size: 29px;
 }
 
@@ -393,7 +394,7 @@ nav .bottom {
     background-color: #828282;
 }
 
-.person-of-week p {
+.person-of-week .p {
     font-size: 25px;
 }
 
@@ -428,7 +429,7 @@ nav .bottom {
     font-size: 34px;
 }
 
-.twitter-article p {
+.twitter-article .p {
     font-size: 21px;
 }
 
@@ -460,11 +461,12 @@ footer h1 {
     font-size: 15px;
 }
 
-footer>p {
+footer>.p {
     width: 1314px;
     height: 214px;
     margin: 17px auto;
     font-size: 25px;
+    line-height: 2;
 }
 
 footer .bottom {
@@ -493,7 +495,9 @@ h1 {
 }
 
 p,
-span {
+span,
+li,
+button {
     /* background-color: #7a7a7a; */
     /* color: rgba(0, 0, 0, 0); */
     background-color: thistle;
