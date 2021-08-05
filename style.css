@@ -9,11 +9,13 @@
 nav .top {
     height: 105px;
     width: 100%;
+    background-color: #b0b0b0;
 }
 
 nav .bottom {
     height: 70px;
     width: 100%;
+    background-color: #bdbdbd;
 }
 
 .flex-container {
@@ -354,6 +356,9 @@ nav .bottom {
 .workshops .date {
     margin-bottom: 31px;
     font-size: 17px;
+    background-color: #7a7a7a;
+    color: rgba(0, 0, 0, 0);
+    user-select: none;
 }
 
 .workshops h1 {
@@ -498,7 +503,8 @@ p,
 span,
 li,
 button {
-    /* background-color: #7a7a7a; */
-    /* color: rgba(0, 0, 0, 0); */
-    background-color: thistle;
+    background-color: #7a7a7a !important;
+    color: rgba(0, 0, 0, 0);
+    user-select: none;
+    /* background-color: thistle; */
 }
